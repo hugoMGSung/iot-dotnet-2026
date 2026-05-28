@@ -346,8 +346,8 @@ namespace DotNet04ControlsApp
         /// <param name="e"></param>
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var res = MessageBox.Show("정말 종료하시겠습니까?", "종료여부", 
-                                        MessageBoxButtons.YesNo, 
+            var res = MessageBox.Show("정말 종료하시겠습니까?", "종료여부",
+                                        MessageBoxButtons.YesNo,
                                         MessageBoxIcon.Question);
 
             if (res == DialogResult.No)
