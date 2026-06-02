@@ -21,7 +21,7 @@
 
         <Label Content="일반 작업화면" Grid.Row="0" Grid.Column="0" />
         <DataGrid x:Name="DgrEmployees" Grid.Row="1" Grid.RowSpan="2" AutoGenerateColumns="True" Margin="5"
-                  IsReadOnly="True" SelectionMode="Single" SelectedItem="{Binding SelectedEmployee}">
+                  IsReadOnly="True" SelectionMode="Single">
         </DataGrid>
 
         <GroupBox Grid.Column="1" Grid.Row="1" Margin="5" Header="상세정보">
@@ -35,7 +35,7 @@
                     <RowDefinition />
                 </Grid.RowDefinitions>
 
-                <TextBox Grid.Row="0" Margin="10" Text="{Binding SelectedEmployee.Id}"/>
+                <TextBox Grid.Row="0" Margin="10" />
                 <TextBox Grid.Row="1" Margin="10" />
                 <TextBox Grid.Row="2" Margin="10" />
                 <TextBox Grid.Row="3" Margin="10" />

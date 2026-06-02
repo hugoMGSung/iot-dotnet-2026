@@ -648,6 +648,13 @@ HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
 ![alt text](image-24.png)
 
+### Modern Design 적용
+
+### 데이터바인딩
+
+
+### 리소스 디자인 추가
+
 #### Presenter (나중에)
 
 - 컨트롤의 실제 내용을 화면에 표시하는 자리

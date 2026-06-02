@@ -84,7 +84,6 @@ namespace WpfBasic02Navi
             };
 
             // 데이터그리드 할당
-            DataContext = this;
             DgrEmployees.ItemsSource = employees;
         }
     }
