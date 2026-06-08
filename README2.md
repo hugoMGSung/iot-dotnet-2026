@@ -62,16 +62,16 @@ CREATE TABLE menu
 - Images 폴더에 붙여넣기
 
 
-![](assets\20260608_155010_image.png)
+![image001](/assets/20260608_155010_image.png)
 
 #### MainWindow UI 작업 및 기본 이벤트
 
-![](assets\20260608_153000_image.png)
+![image002](/assets/20260608_153000_image.png)
 
 #### 메뉴 옵션 팝업창 작업
 
 
-![](assets\20260608_170530_image.png)
+![image003](/assets/20260608_170530_image.png)
 
 #### 기본 동작 이벤트 구현
 
