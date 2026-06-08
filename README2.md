@@ -15,7 +15,7 @@
 - WpfCafeKiosk
 - NuGet Package, MaterialDesignThemes, MySQLConnector 설치
 - MahApps.Metro.IconPacks 추가 설치
-- ![](assets\20260608_101154_image.png)
+- ![alt_text](assets/20260608_101154_image.png)
 
 #### 프로젝트 구성
 
@@ -54,28 +54,24 @@ CREATE TABLE menu
 * MenuItem - DB menu테이블과 매핑
 * OrderItem - 주문리스트 저장
 
-
 #### 이미지 작업
 
 - Pixbay등 사이트에서 다운로드
 - 일부 편집
 - Images 폴더에 붙여넣기
 
-
-![image001](/assets/20260608_155010_image.png)
+![alt_text](assets/20260608_155010_image.png)
 
 #### MainWindow UI 작업 및 기본 이벤트
 
-![image002](/assets/20260608_153000_image.png)
+![alt_text](assets/20260608_153000_image.png)
 
 #### 메뉴 옵션 팝업창 작업
 
-
-![image003](/assets/20260608_170530_image.png)
+![alt_text](assets/20260608_170530_image.png)
 
 #### 기본 동작 이벤트 구현
 
 https://github.com/user-attachments/assets/3fab497c-5e01-4800-bcfa-f0301174ea63
-
 
 ### OpenAPI 연동앱 개발
