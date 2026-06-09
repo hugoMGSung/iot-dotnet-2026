@@ -119,6 +119,10 @@ https://github.com/user-attachments/assets/3fab497c-5e01-4800-bcfa-f0301174ea63
 - Margin, Padding 위치 순서 - Left, Top, Right, Bottom / Left&Right, Top&Bottom 순서
 - CornerRadius 위치 순서 - TopLeft, TopRight, BottomRight, BottomLeft / TopLeft&BottomRight, TopRight&BottomLeft 순서
 
+#### 실행결과
+
+https://github.com/user-attachments/assets/1003c297-420b-46f2-8b83-9a4a416dee7e
+
 
 
 ### OpenAPI 연동앱 개발
