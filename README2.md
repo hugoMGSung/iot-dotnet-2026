@@ -381,6 +381,7 @@ public static readonly Logger logger = LogManager.GetCurrentClassLogger();
 
 #### 완성 실행결과
 
+https://github.com/user-attachments/assets/b2f63508-2c0e-4b86-93fe-90f76c27550c
 
 
 ### SmartHome 솔루션
