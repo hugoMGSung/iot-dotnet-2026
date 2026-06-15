@@ -598,13 +598,17 @@ password_file C:/Program Files/Mosquitto/password.txt
 
 ##### 실행화면
 
+https://github.com/user-attachments/assets/4749c579-4239-4940-846b-4ceea4f8086b
 
+---
 
 #### MQTT Subscribe 앱
 - MQTT 메시지 수신, DB 저장 기능
 - MQTT Publish 앱 복사, 커스터마이징
 
 ##### 구독 실행화면
+
+https://github.com/user-attachments/assets/0844072f-f579-4127-a76e-351a69ffcc25
 
 
 #### SmartHome 모니터링 앱
