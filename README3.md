@@ -707,7 +707,7 @@ public class SensorTrigger : MonoBehaviour {
 
 #### 벨트 동작화면
 
-- mp4 등록예정
+https://github.com/user-attachments/assets/c232dd7f-d635-413a-83e9-4077c8002f4a
 
 #### 컨베이어, 스폰 기능 동기화
 
