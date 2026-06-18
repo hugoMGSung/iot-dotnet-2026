@@ -262,6 +262,10 @@ public class Collectable : MonoBehaviour
 }
 ```
 
+#### 실행화면
+
+https://github.com/user-attachments/assets/a1255594-b84e-4120-b15b-37b113ea0f49
+
 #### 점프기능 추가
 
 - PlayerController.cs에 공용변수, Update() 추가
@@ -587,7 +591,7 @@ public class BoxSpawner : MonoBehaviour {
 
 #### 실행결과
 
-
+https://github.com/user-attachments/assets/33c491e5-cb2b-4611-976e-b5caecdde8ee
 
 ### 2.3. Unity Factory
 
