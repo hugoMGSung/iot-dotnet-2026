@@ -772,7 +772,7 @@ private IEnumerator Process() {
 
 #### 최종 실행결과
 
-- TODO : 동영상 추가
+https://github.com/user-attachments/assets/85e158e2-e7bc-4922-9ede-eeb609d1b39a
 
 ---
 
@@ -965,6 +965,8 @@ private IEnumerator Process() {
 - 움직일 오브젝트 선택 > Add Component > Spline Animate 추가
 - Spline 속성 > 적용한 Spline 지정
 - Movement Method Time Duration 변경
+
+https://github.com/user-attachments/assets/8805de0b-a617-4fc5-939c-fb3e14c67de6
 
 #### Product Spline 애니메이션
 
