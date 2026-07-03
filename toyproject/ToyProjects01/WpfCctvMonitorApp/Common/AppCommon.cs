@@ -9,10 +9,11 @@ namespace WpfCctvMonitorApp.Common
     {
         public const string appName = "국가교통정보센터 CCTV 정보앱 v1.3";
 
-        public const string baseUrl = "https://openapi.its.go.kr:9443/cctvInfo";
+        //public const string baseUrl = "https://openapi.its.go.kr:9443/cctvInfo";
+        public const string baseUrl = "http://localhost:5146/api/itscctv";
 
         // 승인받은 API키 입력. user-secrets, setx 외부공개안하거나, App.config 환경변수로 분리 저장
-        public static string? ItsApiKey { get; set; } = "OPENAPI_KEY";
+        //public static string? ItsApiKey { get; set; } = "OPENAPI_KEY";
         public static string RoadType = "ex";  // ex:고속도로 its:국도  `Type은 클래스 Keyword`
         public static string GetType { get; set; } = "json";  // xml은 안해
         public static string CctvType { get; set; } = "1";  // 1: HLS, 2:MP4, 3:정지영상. 4:HLS(https), 5:mp4(https) 2~5 필요없음
@@ -20,24 +21,24 @@ namespace WpfCctvMonitorApp.Common
 
         // 대한민국 지도 영역
         // 위도 y
-        public static double MinY { get; set; } = 33.100000;
-        public static double MaxY { get; set; } = 39.000000;
-        // 경도 x
-        public static double MinX { get; set; } = 126.000000;
-        public static double MaxX { get; set; } = 129.660000;
+        //public static double MinY { get; set; } = 33.100000;
+        //public static double MaxY { get; set; } = 39.000000;
+        //// 경도 x
+        //public static double MinX { get; set; } = 126.000000;
+        //public static double MaxX { get; set; } = 129.660000;
 
-        public static string BuildCctvApiUrl()
-        {            
-            return $"{baseUrl}" + 
-                   $"?apiKey={ItsApiKey}" + 
-                   $"&type={RoadType}" + 
-                   $"&cctvType={CctvType}" + 
-                   $"&minX={MinX}" + 
-                   $"&maxX={MaxX}" + 
-                   $"&minY={MinY}" + 
-                   $"&maxY={MaxY}" + 
-                   $"&getType={GetType}";
-        }
+        //public static string BuildCctvApiUrl()
+        //{            
+        //    return $"{baseUrl}" + 
+        //           $"?apiKey={ItsApiKey}" + 
+        //           $"&type={RoadType}" + 
+        //           $"&cctvType={CctvType}" + 
+        //           $"&minX={MinX}" + 
+        //           $"&maxX={MaxX}" + 
+        //           $"&minY={MinY}" + 
+        //           $"&maxY={MaxY}" + 
+        //           $"&getType={GetType}";
+        //}
 
         public static readonly string[] Regions =
         {

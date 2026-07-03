@@ -103,6 +103,21 @@
                                 Content="초기화" Click="BtnInit_Click"/>
                     </StackPanel>
                 </GroupBox>
+
+                <ui:Card Margin="2">
+                    <StackPanel>
+                        <TextBlock Text="테마" FontWeight="SemiBold" />
+
+                        <Separator Margin="0,5"/>
+
+                        <ui:ToggleSwitch x:Name="TgsTheme" Content="다크 모드"
+                                         OffContent="Light" OnContent="Dark"
+                                         Checked="TgsTheme_Checked"
+                                         Unchecked="TgsTheme_Unchecked"/>
+                    </StackPanel>
+                       
+                </ui:Card>
+                
             </StackPanel>
             
             <!-- Col1 : CCTV목록 영역 -->
