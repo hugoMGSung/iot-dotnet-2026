@@ -301,7 +301,7 @@ https://github.com/user-attachments/assets/5a49e9a8-c290-4b18-a385-23f49f5d597a
 
 ##### UI 적용화면
 
-
+https://github.com/user-attachments/assets/4fd0cd18-8a38-4515-9115-39c00c139b4b
 
 ##### 즐겨찾기 DB 추가
 
