@@ -279,10 +279,29 @@ PM> Install-Package WPF-UI
 
 https://github.com/user-attachments/assets/5a49e9a8-c290-4b18-a385-23f49f5d597a
 
+##### 추가 수정
+
+- [x] 제목표시줄 추가 - WPF Ui 특성
+- [x] 메시지박스 변경
+
+    ![alt text](image-263.png)
+
+    ![alt text](image-264.png)
+
+- [x] CCTV 정보 글자 잘라서 표기
+
+    ![alt text](image-265.png)
+
+- [ ] 리스트박스 목록 크기, 텍스트, 즐겨찾기 정리
+
 ##### 프로그레스바
 
 - 검색 후 리스트박스 항목 다 나오기전까지 표시
 - WPF UI 적용 후 반영
+
+##### UI 적용화면
+
+
 
 ##### 즐겨찾기 DB 추가
 
