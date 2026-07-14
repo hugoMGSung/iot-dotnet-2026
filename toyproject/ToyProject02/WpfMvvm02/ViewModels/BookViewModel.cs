@@ -15,7 +15,7 @@ namespace WpfMvvm02.ViewModels {
         private readonly IDialogCoordinator _coordinator;
 
         public ObservableCollection<Division> Divisions { get; set; }
-        public ObservableCollection<Book> Books { get; set; }
+        public ObservableCollection<Book> Books { get; set; } = new ObservableCollection<Book>();
 
         [ObservableProperty]
         private Book selectedBook;
@@ -49,7 +49,7 @@ namespace WpfMvvm02.ViewModels {
 
         private void LoadDataFromDb() {
             try {
-                Books = new ObservableCollection<Book>();
+                Books.Clear();
                 string query = @"SELECT b.book_idx, b.author, 
 	                                    b.div_code, d.div_name,
 	                                    b.book_name, b.release_dt, 
