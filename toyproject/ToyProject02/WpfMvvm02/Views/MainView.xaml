@@ -50,7 +50,7 @@
                         </MenuItem.Icon>
                     </MenuItem>
 
-                    <MenuItem Header="도서" Command="">
+                    <MenuItem Header="도서" Command="{Binding ShowBookCommand}">
                         <MenuItem.Icon>
                             <iconPacks:PhosphorIcons Kind="BooksFill" />
                         </MenuItem.Icon>
@@ -88,7 +88,7 @@
         
         <!-- 상태바 -->
         <StatusBar Grid.Row="2">
-            <StatusBarItem Content="TEST"></StatusBarItem>
+            <StatusBarItem Content="{Binding CurrentViewName}"></StatusBarItem>
             <StatusBarItem Content="TEST" HorizontalAlignment="Right"></StatusBarItem>
         </StatusBar>
     </Grid>

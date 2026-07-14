@@ -191,6 +191,7 @@ private Person? selectedPerson;
 
 #### MVVM 패턴에서 다이얼로그 처리
 
+
 - MVVM 패턴에서 MahApps.Metro의,
     - this.ShowMessageAsync() 메서드 사용 불가
 - MVVM 패턴에 맞춰서 설정
@@ -229,5 +230,56 @@ public async Task AppExit() {
         mah:DialogParticipation.Register="{Binding}">
 ```
 
+- 실행결과
+
+![alt text](image-277.png)
 
 
+#### 메인영역 화면 전환
+
+- Page로 화면전환은 Frame 컨트롤 사용(네비게이션 기능)
+- UserControl로 화면전환은 ContentControl 컨트롤 사용(화면변경)
+
+- MainView 화면
+
+```xml
+<!--메인 영역(장르관리, 도서관리, 회원관리, 대여관리)-->
+<ContentControl Grid.Row="1" Content="{Binding CurrentView}"></ContentControl>
+```
+
+- MainViewModel 클래스
+
+```cs
+[ObservableProperty]
+private UserControl currentView;  
+// public CurrentView 속성 자동생성
+```
+
+- MainView 메뉴 명령추가
+
+```xml
+<MenuItem Header="책장르" Command="{Binding ShowDivisionCommand}">
+```
+
+- MainViewModel.ShowDivision() 메서드
+
+```cs
+public void ShowDivision() {
+    //MessageBox.Show("TEST");
+    var view = new DivisionView();
+    view.DataContext = new DivisionViewModel(DialogCoordinator.Instance);
+
+    CurrentView = view;
+}
+```
+
+- 실행화면
+
+![alt text](image-278.png)
+
+#### 화면 복제
+
+- View xaml 파일 복사, 이름변경/클래스명 변경
+- ViewModel 클래스 복사, 이름변경/클래스명 변경
+- MainView에서 메뉴 명령 추가
+- MainViewModel에서 명령에 바인딩되는 메서드 추가
