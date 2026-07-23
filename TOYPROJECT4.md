@@ -245,7 +245,7 @@ protocol websockets
 
 - ASP.NET 웹페이지 객체인식결과 스트리밍 
 
-동영상업로드
+https://github.com/user-attachments/assets/90497b96-f081-4a47-a52e-3dc3be9547a1
 
 - 클래스별로 색상다르게 표시
 
@@ -296,4 +296,7 @@ protocol websockets
 
 ![alt text](image-318.png)
 
-동영상업로드
+- 실핼결과
+
+https://github.com/user-attachments/assets/4a8fbc55-ee37-4e6b-bcfe-101733e5ba85
+
