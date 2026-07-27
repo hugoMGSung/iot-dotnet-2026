@@ -288,7 +288,20 @@ void loop() {
 
 #### 통합로직 구현
 
+- [전체소스](./toyproject/ToyProjects05/arduino_part/sortingmachine/sortingmachine.ino)
 
+#### Arduino 교체 테스트
+
+- [Arduino UNO R3](https://www.devicemart.co.kr/goods/view?no=34404) 에서 [Arduino UNO R4](https://www.devicemart.co.kr/goods/view?no=15088648)로 교체 테스트
+- 결론 - `Adafruit` 등 라이브러리 UNO R4에서 사용불가
+
+#### IR 적외선 센서팁
+
+- 레일에 파란색, 검은색 전기테이프도 인식됨
+
+#### 기본 동작
+
+- 동영상 추후 업로드
 
 ### MQTT 통신 시스템
 
