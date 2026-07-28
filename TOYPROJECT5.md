@@ -301,7 +301,7 @@ void loop() {
 
 #### 기본 동작
 
-- 동영상 추후 업로드
+https://github.com/user-attachments/assets/f117f601-f956-414d-b6cc-8c420a34f4f7
 
 ### 라즈베리파이 연결
 
