@@ -637,6 +637,9 @@ MonoBehaviour:
   mqttUserName: root
   mqttPassword: mqtt123456
   topic: smartfactory/52/data
+  txtDeviceId: {fileID: 1928829848}
+  txtTimestamp: {fileID: 1356534743}
+  txtData: {fileID: 754468573}
 --- !u!4 &548047205
 Transform:
   m_ObjectHideFlags: 0
