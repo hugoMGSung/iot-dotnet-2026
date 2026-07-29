@@ -443,4 +443,22 @@ https://github.com/user-attachments/assets/f117f601-f956-414d-b6cc-8c420a34f4f7
 
 https://github.com/user-attachments/assets/49c4e7b5-6bfb-4b68-80e9-94a0d02e8349
 
+- 미니프로젝트 3에서 진행
+
+### 센싱결과 색상 표시
+
+- Unity에서 제품 변경된 색상 표시
+
+### ESP32-CAM 연동
+
+### Database 데이터 저장
+
+### ...
+
+
+
 ### WPF 모니터링 시스템
+
+### 벨트 제어
+
+- 모니터링 시스템에서 비상정지 기능
