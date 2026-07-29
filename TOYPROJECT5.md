@@ -307,6 +307,8 @@ https://github.com/user-attachments/assets/f117f601-f956-414d-b6cc-8c420a34f4f7
 
 - 아두이노 + 라즈베리파이 5
 
+![alt text](image-345.png)
+
 #### MQTT 통신 구현
 
 - Raspbian -> Windows MQTT 통신
@@ -360,5 +362,85 @@ https://github.com/user-attachments/assets/f117f601-f956-414d-b6cc-8c420a34f4f7
 ![alt text](image-340.png)
 
 ### Unity 디지털트윈 시스템
+
+- Unity 학습 시 사용한 ProductLine 재사용
+
+![alt text](image-342.png)
+
+- M2MqttUnity 설치
+  - [Github](https://github.com/gpvigano/M2MqttUnity) 코드 다운로드
+  - 압축해제 한 Assets 폴더를 Unity 프로젝트 Assets에 복사
+
+  ![alt text](image-343.png)
+
+- M2MqttUnity_Test 신 사용 테스트
+
+- 접속 확인
+
+![alt text](image-344.png)
+
+- MQTT 데이터 Subscribe 로직 작성 - TOPIC에 맞춰서
+
+#### Script 생성
+
+- SmartFactoryMqttClient.cs 생성 및 작성
+
+#### 빈 오브젝트 생성
+
+- MqttClient
+- Script 컴포넌트로 연결
+- SensorTrigger.cs 의 로그 주석처리
+
+#### 유니티 MQTT 토픽메시지 확인
+
+![alt text](image-346.png)
+
+#### Newtonsoft.Json 라이브러리 설치
+
+- Window > Package Management > Package Manager
+- `+` > Install Package by technical name 클릭
+- `com.unity.nuget.newtonsoft-json` 설치
+
+![alt text](image-347.png)
+
+#### MQTTClient 스크립트 Json 처리
+
+- Newtonsoft.Json 사용
+- ProductResult.cs 스크립트 생성
+
+#### Canvas 객체 추가
+
+- 기본 2D를 3D로 변경 
+  - Canvas 컴포넌트 Render Mode를 `World Space`로 변경
+
+![alt text](image-348.png)
+
+- Rect Transform 조정
+
+![alt text](image-349.png)
+
+#### Panel 추가
+
+- Rect Transform을 `Reset`
+- Background 색상 변경
+
+#### TMP 추가
+
+- NanumGothic 폰트 임포트
+
+![alt text](image-350.png)
+
+
+#### 공정현황 텍스트들 추가
+
+![alt text](image-351.png)
+
+#### MQTTClient 스크립트 텍스트 바인딩
+
+![alt text](image-352.png)
+
+#### 실행결과
+
+동영상 업로드
 
 ### WPF 모니터링 시스템
