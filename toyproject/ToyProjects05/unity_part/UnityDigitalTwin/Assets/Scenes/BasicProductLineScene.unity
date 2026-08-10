@@ -1802,6 +1802,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SensorTrigger
   conveyor2: {fileID: 609897641}
+  redMaterial: {fileID: 2100000, guid: 0c4c9adceb8b98c439718d6f54f897a8, type: 2}
+  greenMaterial: {fileID: 2100000, guid: 7888c2ce5feb9444f82f6dbc7617395c, type: 2}
+  blueMaterial: {fileID: 2100000, guid: 3901ded0b1491104eaccfca3ce892c1e, type: 2}
 --- !u!65 &1566795003
 BoxCollider:
   m_ObjectHideFlags: 0
