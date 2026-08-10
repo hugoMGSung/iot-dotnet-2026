@@ -585,7 +585,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 20.402296}
+  m_margin: {x: 0, y: 0, z: 75.86797, w: 20.402296}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -640,6 +640,8 @@ MonoBehaviour:
   txtDeviceId: {fileID: 1928829848}
   txtTimestamp: {fileID: 1356534743}
   txtData: {fileID: 754468573}
+  boxSpwaner: {fileID: 998527477}
+  sensorTrigger: {fileID: 1566795002}
 --- !u!4 &548047205
 Transform:
   m_ObjectHideFlags: 0
@@ -723,7 +725,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC81C\uD488\uACB0\uACFC >"
+  m_text: "\uACF5\uC815\uC0C1\uD0DC >"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 81862f6f3e47b1246b354f8b859dfa81, type: 2}
   m_sharedMaterial: {fileID: -8189222181343487925, guid: 81862f6f3e47b1246b354f8b859dfa81, type: 2}
@@ -789,7 +791,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 20.402296}
+  m_margin: {x: 0, y: 0, z: 75.53249, w: 20.402296}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1234,7 +1236,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoxSpawner
   prdPrefab: {fileID: 7144678105869998104, guid: c0d0b49987aff3e4bb16982dc965a049, type: 3}
-  interval: 3
 --- !u!1 &1110954499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,7 +1757,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 20.402296}
+  m_margin: {x: 0, y: 0, z: 83.54883, w: 20.402296}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1801,7 +1802,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SensorTrigger
   conveyor2: {fileID: 609897641}
-  spawner: {fileID: 998527477}
 --- !u!65 &1566795003
 BoxCollider:
   m_ObjectHideFlags: 0
