@@ -600,6 +600,8 @@ https://github.com/user-attachments/assets/49c4e7b5-6bfb-4b68-80e9-94a0d02e8349
 
 https://github.com/user-attachments/assets/35891752-da7d-4d22-a74a-6ab1621f018a
 
+
+
 ### ESP32-CAM 연동
 
 ### Database 데이터 저장
