@@ -480,7 +480,7 @@ autostart 사용할 것
 
 - data_interface.py 와 test_yolo.py 소스 통합
 - 물체인식 동시에 MQTT로 데이터 Publish
-- total_interface.py
+- [total_interface.py](./toyproject/ToyProjects06/raspberrypi_part/total_interface.py)
 
 ![](assets/20260814_104559_image.png)
 
@@ -513,20 +513,17 @@ serial_data = G
 serial_data = R 
 ```
 
-
 ##### Arduino 수신된 값으로 서보모터 제어
 
 - 아두이노 소스에 processSerialCommand(char command), setProductColor(char color) 함수 추가
-- sortingmachine.ino
-
+- [sortingmachine.ino](./toyproject/ToyProjects06/arduino_part/sortingmachine.ino)
 
 ##### 실행결과
 
 https://github.com/user-attachments/assets/ca63ff07-7a7c-4880-b2e5-ee8844b3c621
 
+- DC모터 속도 조절 필요
 
 #### Unity에서 컨베이어벨트 비상정지 제어
-
-
 
 TODO : 유니티에서 컨베이어벨트 제어
