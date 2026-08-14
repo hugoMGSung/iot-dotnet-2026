@@ -522,7 +522,7 @@ serial_data = R
 
 ##### 실행결과
 
-
+https://github.com/user-attachments/assets/ca63ff07-7a7c-4880-b2e5-ee8844b3c621
 
 
 #### Unity에서 컨베이어벨트 비상정지 제어
