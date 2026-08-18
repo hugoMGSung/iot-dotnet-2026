@@ -573,7 +573,7 @@ https://github.com/user-attachments/assets/49c4e7b5-6bfb-4b68-80e9-94a0d02e8349
         renderer.material = greenMaterial;
     } else if (color == "B") {
         renderer.material = blueMaterial;
-    }    
+    }  
   }
 
   private void OnTriggerEnter(Collider other)
@@ -595,21 +595,11 @@ https://github.com/user-attachments/assets/49c4e7b5-6bfb-4b68-80e9-94a0d02e8349
 
     ![](assets/20260810_113952_image.png)
 
-
 #### Unity 실행결과
 
 https://github.com/user-attachments/assets/35891752-da7d-4d22-a74a-6ab1621f018a
 
 
-
-### ESP32-CAM 연동
-
-### Database 데이터 저장
-
-### ...
-
 ### WPF 모니터링 시스템
 
-### 벨트 제어
-
-- 모니터링 시스템에서 비상정지 기능
+https://github.com/hugoMGSung/iot-miniproject-2025/blob/main/miniproject3/README.md

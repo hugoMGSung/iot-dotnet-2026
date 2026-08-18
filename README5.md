@@ -24,7 +24,7 @@
 
 ### IoT 스마트홈 통합 플랫폼
 
-- MQTT WPF + WebAPI + Unity 연계 
+- MQTT WPF + WebAPI + Unity 연계
 
 ### Unity ProductApp 기능 개선
 
