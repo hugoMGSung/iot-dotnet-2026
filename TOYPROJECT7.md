@@ -550,3 +550,9 @@ public partial class App : System.Windows.Application {
   - dxe(xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors") : TextEdit, ..
 - GridControl 사용시 주의점 : 상위 Grid RowDefinition이 Auto일 때 Height 속성이 필수!
 - 실행결과
+ 
+https://github.com/user-attachments/assets/e7a04533-71d9-45e7-8575-8ce750ce39a0
+
+
+
+
