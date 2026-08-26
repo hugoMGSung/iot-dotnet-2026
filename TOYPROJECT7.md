@@ -550,9 +550,26 @@ public partial class App : System.Windows.Application {
   - dxe(xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors") : TextEdit, ..
 - GridControl 사용시 주의점 : 상위 Grid RowDefinition이 Auto일 때 Height 속성이 필수!
 - 실행결과
- 
+
 https://github.com/user-attachments/assets/e7a04533-71d9-45e7-8575-8ce750ce39a0
 
 
+#### 추가작업
 
+##### 검색 중 진행상태 표시
+
+- DevExpress ProgressBarEdit 사용
+
+```xml
+<dxe:ProgressBarEdit Grid.Row="0" x:Name="PrgAnswer"
+                     Height="20" Margin="5,0"
+                     Minimum="0" Maximum="100" 
+                     Visibility="Collapsed">
+    <dxe:ProgressBarEdit.StyleSettings>
+        <dxe:ProgressBarMarqueeStyleSettings />
+    </dxe:ProgressBarEdit.StyleSettings>
+</dxe:ProgressBarEdit>
+```
+
+- 실행결과
 
